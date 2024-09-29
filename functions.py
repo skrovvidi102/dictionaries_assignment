@@ -1,3 +1,4 @@
+import data
 # manager to update the menu items
 def update_menu_item(menu, code, field, new_value):
     for item in menu:
@@ -56,7 +57,7 @@ def take_customer_request(menu):
         print("Order could not be processed.")
     else:
         print(f"{quantity} {request_code} successfully ordered.")
-
+        
 
 # Display the menu items
 def display_menu(menu):
