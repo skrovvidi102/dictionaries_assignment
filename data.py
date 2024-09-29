@@ -9,6 +9,11 @@ menu_items = [
 ]
 
 drink_items = ['D1', 'D2',  'D3', 'D4']
+appetizer_items = ['A1', 'A2',  'A3', 'A4', 'A5']
+salad_items = ['S1', 'S2', 'S3']
+entree_items = ['E1', 'E2',  'E3', 'E4']
+dessert_items =['T1', 'T2',  'T3', 'T4']
+all_items = drink_items + appetizer_items + salad_items + entree_items + dessert_items
 
 # Convert the list of menu items to a list of dictionaries with random stock
 import random
